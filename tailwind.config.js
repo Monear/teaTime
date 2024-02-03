@@ -19,31 +19,31 @@ module.exports = {
             display: ['PT Mono, monospace'],
             body: ['Inter, sans-serif'],
           },
-          'primary': '#000000',           /* Primary color */
-          'primary-focus': '#9945FF',     /* Primary color - focused */
+          'primary': '#6B705C',           /* Primary color - a muted green */
+          'primary-focus': '#2C5F2D',     /* Primary color - focused, a dark green */
           'primary-content': '#ffffff',   /* Foreground content color to use on primary color */
 
-          'secondary': '#808080',         /* Secondary color */
-          'secondary-focus': '#f3cc30',   /* Secondary color - focused */
+          'secondary': '#E9C46A',         /* Secondary color - a warm yellow */
+          'secondary-focus': '#F4A261',   /* Secondary color - focused, a warm orange */
           'secondary-content': '#ffffff', /* Foreground content color to use on secondary color */
 
-          'accent': '#33a382',            /* Accent color */
-          'accent-focus': '#2aa79b',      /* Accent color - focused */
+          'accent': '#E76F51',            /* Accent color - a vibrant red */
+          'accent-focus': '#E63946',      /* Accent color - focused, a dark red */
           'accent-content': '#ffffff',    /* Foreground content color to use on accent color */
 
-          'neutral': '#2b2b2b',           /* Neutral color */
-          'neutral-focus': '#2a2e37',     /* Neutral color - focused */
+          'neutral': '#264653',           /* Neutral color - a dark blue */
+          'neutral-focus': '#1D3557',     /* Neutral color - focused, a darker blue */
           'neutral-content': '#ffffff',   /* Foreground content color to use on neutral color */
 
-          'base-100': '#000000',          /* Base color of page, used for blank backgrounds */
-          'base-200': '#35363a',          /* Base color, a little darker */
-          'base-300': '#222222',          /* Base color, even more darker */
-          'base-content': '#f9fafb',      /* Foreground content color to use on base color */
+          'base-100': '#F1FAEE',          /* Base color of page, used for blank backgrounds, a light off-white */
+          'base-200': '#A8DADC',          /* Base color, a little darker, a light blue */
+          'base-300': '#457B9D',          /* Base color, even more darker, a medium blue */
+          'base-content': '#1D3557',      /* Foreground content color to use on base color, a dark blue */
 
-          'info': '#2094f3',              /* Info */
-          'success': '#009485',           /* Success */
-          'warning': '#ff9900',           /* Warning */
-          'error': '#ff5724',             /* Error */
+          'info': '#1D3557',              /* Info, a dark blue */
+          'success': '#2C5F2D',           /* Success, a dark green */
+          'warning': '#E76F51',           /* Warning, a vibrant red */
+          'error': '#E63946',             /* Error, a dark red */             /* Error */
         },
       },
       // backup themes:

@@ -1,6 +1,7 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
-import { FC } from 'react';
+import { FC, useEffect } from 'react';
+import Modal from 'react-modal';
 import { ContextProvider } from '../contexts/ContextProvider';
 import { AppBar } from '../components/AppBar';
 import { ContentContainer } from '../components/ContentContainer';
@@ -10,6 +11,10 @@ require('@solana/wallet-adapter-react-ui/styles.css');
 require('../styles/globals.css');
 
 const App: FC<AppProps> = ({ Component, pageProps }) => {
+    useEffect(() => {
+        Modal.setAppElement('#__next');
+    }, []);
+
     return (
         <>
           <Head>
